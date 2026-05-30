@@ -179,6 +179,13 @@ RETURN b
 LIMIT 10
 ```
 
+### Consultar todas as Avaliações feitas por um Usuário específico
+
+```cypher
+MATCH (u:User {id: "user_lucas_01"})-[r:REVIEWED]->(b:Business)
+RETURN u.name AS Usuario, r.stars AS Nota, r.text AS Comentario, b.name AS Empresa
+```
+
 ---
 
 ## 3. 🟡 Update (Atualizar)
