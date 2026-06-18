@@ -23,7 +23,7 @@ Para contornar as restrições de segurança de arquivo do Neo4j sem quebrar o s
 1. Abra o **Prompt de Comando (CMD)** ou **PowerShell** do Windows.
 2. Navegue até a pasta `import` (ajuste o nome do usuário se necessário):
 ```bash
-cd C:\Users\lucas\.Neo4jDesktop2\Data\dbmss\dbms-e10e68ab-6853-43e9-8f16-da6bdcfe69b0\import
+cd C:\Users\ResTIC16\.Neo4jDesktop2\Data\dbmss\dbms-7280d36f-00dc-4c5b-9245-4d2af685ee7f\import
 ```
  
 3. Inicie o servidor HTTP do Python:
